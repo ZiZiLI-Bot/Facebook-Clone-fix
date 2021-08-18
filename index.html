@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/Reponsive.css">
+    <link rel="stylesheet" href="./assets/CSS/grid.css">
+    <title>FB Clone Fix</title>
+</head>
+<body>
+    <div class="grid navbar">
+        <div class="row ">
+            <div class="col l-3">
+                        <div class="navbar__search">
+                            <input type="text" class="search__input" placeholder="Tìm kiếm trên Facebook"> 
+                            <img src="./assets/img/FB_icon.png" width="40" height="40" alt="Facebook Icon" class="facebook__icon">
+                            <i class="fas fa-search navbar__search--icon"></i> 
+                            <i class="fas fa-arrow-left navbar__search--icon-1"></i>   
+                        </div>
+            </div>
+            <div class="col l-6">
+                        <div class="tag__icon">
+                            <div class="tag__icon-item tag__icon-selection">
+                                <i class="fas fa-home icon-item"></i>
+                            </div>
+                            <div class="tag__icon-item">
+                                <i class="fas fa-user-friends icon-item"></i>
+                            </div>
+                            <div class="tag__icon-item">
+                                <i class="fas fa-flag icon-item"></i>
+                            </div>
+                            <div class="tag__icon-item">
+                                <i class="fas fa-tv icon-item"></i>
+                            </div>
+                            <div class="tag__icon-item">
+                                <i class="fas fa-users icon-item"></i>
+                            </div>
+                        </div>
+            </div>
+            <div class="col l-3">
+                        <div class="navbar__info">
+                            <div class="info_uses">
+                                <img src="./assets/IMG/Avata.png" alt="Avatar" width="30" height="30" class="uses__avatar">
+                                <p class="info__name">Tuấn</p>
+                                <div class="info_uses--after"></div>
+                            </div>
+                            <div class="info__icon">
+                                    <i class="fas fa-th-list icon-list__item"></i>
+                                    <i class="fab fa-facebook-messenger icon-list__item"></i>
+                                    <i class="fas fa-bell icon-list__item"></i>
+                                    <i class="fas fa-caret-down icon-list__item" ></i>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <div class="gird container">
+        <div class="row no-gutters">
+            <div class="col l-3">
+                <div class="shortcut">
+                    <div class="shortcut-header">
+                        <div class="header__item">
+                            <img src="./assets/IMG/Avata.png" width="38" height="38" class="shortcut-avatar" alt="Avatar">
+                            <p class="shortcut__titer">Tuấn Hùng</p>
+                        </div>
+                        <div class="header__item">
+                            <img src="./assets/IMG/X1.png" width="38" height="38" class="header__item-img" alt="Avatar">
+                            <p class="shortcut__titer">Bạn bè</p>
+                        </div>
+                        <div class="header__item">
+                            <img src="./assets/IMG/X2.png" width="38" height="38" class="header__item-img" alt="Avatar">
+                            <p class="shortcut__titer">Nhóm</p>
+                        </div>
+                        <div class="header__item">
+                            <img src="./assets/IMG/X3.png" width="38" height="38" class="header__item-img" alt="Avatar">
+                            <p class="shortcut__titer">Marketplace</p>
+                        </div>
+                        <div class="header__item">
+                            <img src="./assets/IMG/X4.png" width="38" height="38" class="header__item-img" alt="Avatar">
+                            <p class="shortcut__titer">Watch</p>
+                        </div>
+                        <div class="header__item">
+                            <img src="./assets/IMG/X5.png" width="38" height="38" class="header__item-img" alt="Avatar">
+                            <p class="shortcut__titer">Kỷ niệm</p>
+                        </div>
+                        <div class="header__item">
+                            <i class="fas fa-chevron-down header__item-arrow"></i>
+                            <p class="shortcut__titer">Xem thêm</p>
+                        </div>
+                    </div>
+                    <div class="shortcut-footer">
+                        <div class="shortcut-footer__uses">
+                            <span class="shortcut-footer__uses-title">Lối tắt của bạn</span>
+                            <span class="shortcut-footer__uses-edit">Chỉnh sửa</span>
+                        </div>
+                        <div class="footer__item">
+                            <img src="https://scontent.fhan3-1.fna.fbcdn.net/v/t39.30808-6/cp0/c25.0.64.64a/p64x64/216487870_4596171327060007_2872420420054435187_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=TXdkvUUIww0AX_EHFLO&_nc_ht=scontent.fhan3-1.fna&oh=1bb41c9a3a012195e43b1e02c754258f&oe=611FE0C4" class="footer__item-img" width="36" height="36" alt="">
+                            <p class="shortcut__titer">Khoa Công nghệ thông tin - Đại học Phenikaa</p>
+                        </div>
+                        <div class="footer__item">
+                            <img src="https://scontent-hkt1-2.xx.fbcdn.net/v/t1.6435-9/cp0/c16.0.64.64a/p64x64/122197968_400667727986549_1390402090610424514_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=YRCy8DuYqOoAX-nbYNJ&_nc_ht=scontent-hkt1-2.xx&oh=f356aceba2acbf7f9fcb416e89a41d27&oe=6142FD07" class="footer__item-img" width="36" height="36" alt="">
+                            <p class="shortcut__titer">Lớp Tiếng Nhật Mochi - K14 CNTT Việt Nhật</p>
+                        </div>
+                        <div class="footer__item">
+                            <img src="https://scontent.fhan4-3.fna.fbcdn.net/v/t1.6435-9/cp0/c29.0.64.64a/p64x64/220877054_127273519560227_3571411579322657172_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=8IeniHayIV0AX9LnHhe&_nc_oc=AQlgupP10Nb-2YVkxXDwRe5Sl_fwiRMMqU7OrNEsedZsZXrfMAl84QVXsjUOAyQk7-Y&_nc_ht=scontent.fhan4-3.fna&oh=726c94214f141badb348cc1d5c98436d&oe=613FB23F" class="footer__item-img" width="36" height="36" alt="">
+                            <p class="shortcut__titer">NSFW⚠️freshsauce</p>
+                        </div>
+                        <div class="footer__item">
+                            <img src="https://scontent-hkt1-2.xx.fbcdn.net/v/t1.6435-9/cp0/c1.0.64.64a/p64x64/131982944_1384597231871212_9079604116897406831_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=SiX2SmWOjMMAX_Q_ktW&_nc_ht=scontent-hkt1-2.xx&oh=3574ce6615bf03eecb3053c6b09137ee&oe=61430A44" class="footer__item-img" width="36" height="36" alt="">
+                            <p class="shortcut__titer">PHENIKAA K14 - TC Group</p>
+                        </div>
+                        <div class="footer__item">
+                            <img src="https://scontent-hkt1-1.xx.fbcdn.net/v/t1.6435-9/cp0/c25.0.64.64a/p64x64/184235922_1382508905462803_1483923905736054167_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=ac9ee4&_nc_ohc=Tlc2BmzvNAsAX-UumUH&_nc_ht=scontent-hkt1-1.xx&oh=a1f4c5b12978b834c20ac4d1cc74334f&oe=6141211F" class="footer__item-img" width="36" height="36" alt="">
+                            <p class="shortcut__titer">KÝ TÚC XÁ ĐẠI HỌC PHENIKAA</p>
+                        </div>
+                    </div>
+                    <div class="shortcut__copyright">
+                        <a href="">Quyền riêng tư</a> •
+                        <a href="">Điều khoản</a> •
+                        <a href="">Quảng cáo</a> •
+                        <a href="">Lựa chọn quảng cáo</a><i style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yK/r/EblTzuFf4rZ.png');background-position:-88px -74px;background-size:190px 212px;width:12px;height:12px;background-repeat:no-repeat;display:inline-block;"></i> •
+                        <a href="">Cookie</a> •
+                        <a href="">Xem thêm</a> •
+                        <span>Facebook © 2021</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-6">
+                
+            </div>
+            <div class="col l-3">
+                <div class="contacts">
+                    <div class="contacts__header">
+                        <p class="contacts__header-text">Người liên hệ</p>
+                        <div class="contacts__header-icon">
+                            <i class="fas fa-video header-icon-item"></i>
+                            <i class="fas fa-search header-icon-item"></i>
+                            <i class="fas fa-ellipsis-h header-icon-item"></i>
+                        </div>
+                    </div>
+                    <div class="contacts__content">
+                        <ul class="contacts__content-list">
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" class="" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="contacts__content-list-item">
+                                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="36" height="36" alt="">
+                                <p>Khánh chelsea</p>
+                                <div class="contacts__item-details">
+                                    <div class="item-details-content">
+                                        <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.6435-1/c249.406.834.834a/s100x100/229647147_2052900388192007_773486869362375095_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XKdIRYmLWA8AX_EsTJg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fhan3-2.fna&oh=bbc16e41de05dd9642ab7881b94837de&oe=614367A1" width="96" height="96" alt="">
+                                        <div class="item-details-content__info">
+                                            <p>Khánh chelsea</p>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details1.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>1 bạn chung:</strong> <strong>Bach Bach</strong>
+                                                </span>
+                                            </div>
+                                            <div class="info-name-content">
+                                                <img src="./assets/IMG/icon-details3.png" width='20' height='20' alt="">
+                                                <span>
+                                                    <strong>Đã làm việc tại</strong> <strong>Đội Sinh viên Tình nguyện Đồng hương Thái Bình</strong>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
